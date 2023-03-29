@@ -1,0 +1,65 @@
+@charset "utf-8";
+.banner{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.banner_part{
+    position: relative;
+}
+.banner_box{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.banners{
+    height: 500px;
+    position: absolute;
+    cursor: pointer;
+}
+.banners > li {
+    width: 1200px;
+    height: 500px;
+    float: left;
+}
+.disc{
+width: auto;
+height: auto;
+position: absolute;
+right: 15px;
+top: 15px;
+}
+.disc > li{
+width: 20px;
+height: 20px;
+margin-right: 10px;
+border-radius: 50px;
+float: left;
+background-color: rgba(255, 255, 255, 0.5);
+cursor: pointer;
+}
+.disc > li:nth-of-type(1){
+    background-color: white;
+}
+.button1{
+    width: 60px;
+    height: 60px;
+    background-image: url("../banner/rightbtn.png");
+    position: absolute;
+    z-index: 150;
+    bottom: 47%;
+    right: 0;
+    cursor: pointer;
+}
+.button2{
+    width: 60px;
+    height: 60px;
+    background-image: url("../banner/leftbtn.png");
+    position: absolute;
+    z-index: 150;
+    bottom: 47%;
+    cursor: pointer;
+}

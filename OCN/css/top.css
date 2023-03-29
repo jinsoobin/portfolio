@@ -1,0 +1,36 @@
+@charset "utf-8";
+header{
+    width: 1200px;
+    height: 35px;
+    margin: 0 auto;
+}
+.tvico{
+    display: block;
+    width: 80px;
+    height: 35px;
+    background-image: url("../images/tving_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.top_menu{
+    list-style: none;
+    height: 35px;
+    float: right;
+}
+.top_menu > li{
+    float: left;
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+    font-weight: 300;
+    color: black;
+}
+.top_menu > li:hover{
+    font-weight: 500;
+}

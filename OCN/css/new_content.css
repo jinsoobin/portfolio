@@ -1,0 +1,107 @@
+@charset "utf-8";
+.new_content{
+    width: 1200px;
+    height: 355px;
+    margin: 0 auto;
+}
+.content_f{
+    width: 1200px;
+    height: 355px;
+}
+.content_f1{
+    width: inherit;
+    height: 37px;
+    margin: 0;
+    padding: 0;
+}
+.content_f1 > span:nth-of-type(1){
+    width: 200px;
+    height: 37px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: center;
+    float: left;
+}
+.content_f1 > span:nth-of-type(2){
+    float: right;
+    width: 100px;
+    height: 37px;
+    background-image: url("../contents/more.png");
+    padding-right: 10px;
+    cursor: pointer;
+    line-height: 37px;
+}
+
+.content_box1{
+    width: 1200px;
+    height: 318px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 23px;
+    padding-left: 21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+    /* position: absolute; */
+}
+.content_box1 > li{
+    float: left;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 15px;
+}
+.content_box1 > li:nth-of-type(1){
+    background-image: url("../contents/mini1-black.png");
+}
+.content_box1 > li:nth-of-type(2){
+    background-image: url("../contents/mini2-black.png");
+}
+.content_box1 > li:nth-of-type(3){
+    background-image: url("../contents/mini3-black.png");
+}
+.content_box1 > li:nth-of-type(4){
+    background-image: url("../contents/mini4-black.png");
+}
+.content_box1 > li:nth-of-type(5){
+    background-image: url("../contents/mini5-black.png");
+}
+
+
+/* 
+.content_box2{
+    width: 1200px;
+    height: 318px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 23px;
+    padding-left: 21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.content_box2 > li{
+    float: left;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 15px;
+}
+.content_box2 > li:nth-of-type(1){
+    background-image: url("../contents/mini1-color.png");
+}
+.content_box2 > li:nth-of-type(2){
+    background-image: url("../contents/mini2-color.png");
+}
+.content_box2 > li:nth-of-type(3){
+    background-image: url("../contents/mini3-color.png");
+}
+.content_box2 > li:nth-of-type(4){
+    background-image: url("../contents/mini4-color.png");
+}
+.content_box2 > li:nth-of-type(5){
+    background-image: url("../contents/mini5-color.png");
+} */

@@ -1,0 +1,58 @@
+@charset "utf-8";
+.week{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.fff{
+    width: inherit;
+    height: 130px;
+    background-color: lightcoral;
+}
+.fw{
+    width: inherit;
+    height: inherit;
+}
+.fw > span{
+    width: 150px;
+    height: 130px;
+    background-image: url("../contents/week_part.png");
+    float: left;
+}
+.fw > li{
+    float: left;
+    width: 210px;
+    height: 130px;
+}
+.fw > li:nth-of-type(1){
+    background-image: url("../contents/b13_1.png");
+}
+.fw > li:nth-of-type(2){
+    background-image: url("../contents/b13_2.png");
+}
+.fw > li:nth-of-type(3){
+    background-image: url("../contents/b13_3.png");
+}
+.fw > li:nth-of-type(4){
+    background-image: url("../contents/b13_4.png");
+}
+.fw > li:nth-of-type(5){
+    background-image: url("../contents/b13_5.png");
+}
+.fw > li > span{
+    width: 210px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #fce207;
+    background-color: #000;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 100px;
+    display: none;
+}
+
+
